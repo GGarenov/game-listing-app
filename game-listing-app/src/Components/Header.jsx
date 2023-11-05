@@ -6,9 +6,10 @@ function Header() {
   return (
       <div>
       <img src={logo} width={80} height={80} />
-          <div>
+          <div className='flex bg-slate-500 p-2 w-full items-center'>
               <HiMagnifyingGlass/>
-          <input type="text" />
+              
+          <input type="text" className='bg-transparent outline-none'/>
           </div> 
       </div>
   )
